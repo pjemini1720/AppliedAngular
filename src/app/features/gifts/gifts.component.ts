@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
@@ -6,7 +6,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterOutlet, RouterLink],
   template: `
-    <div class="flex gap-8">
+    <div>
       <a class="link" routerLink="people">People</a>
       <a class="link" routerLink="people-entry">Add A Person To Your List</a>
     </div>
