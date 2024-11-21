@@ -27,7 +27,6 @@ export const routes: Routes = [
     loadChildren: () =>
       import('./features/counter/counter.routes').then((r) => r.COUNTER_ROUTES),
   },
-
   {
     path: '**',
     redirectTo: 'home',

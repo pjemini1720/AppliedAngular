@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { CurrencyPipe } from '@angular/common';
 import {
   Component,
